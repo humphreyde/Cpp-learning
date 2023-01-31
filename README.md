@@ -12,10 +12,10 @@
 - 获取github仓库保存到本地：
 
 ```
-git clone https://github.com/humphreyde/cpp-learning.git
+首次：git clone https://github.com/humphreyde/cpp-learning.git
 ```
 
-修改后
+修改后，后续拉取远程仓库进行同步：`git pull origin master`
 
 - 进入本地仓库，输入`git status`查看仓库状态
 
