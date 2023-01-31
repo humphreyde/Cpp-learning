@@ -7,13 +7,24 @@
 
 ### 第一种提交方式(本地无仓库)
 
-获取github仓库保存到本地：`git clone https://github.com/humphreyde/cpp-learning.git`
+- 获取github仓库保存到本地：
+
+```
+git clone https://github.com/humphreyde/cpp-learning.git
+```
 
 修改后
 
-进入本地仓库，输入`git status`查看仓库状态，然后`git add xxx/`和`git commit -m "commit xxx file"`修改后的文件
+- 进入本地仓库，输入`git status`查看仓库状态
 
-同步到远程仓库：`git push origin master`
+- 然后`git add [文件名]`添加到暂存区
+  - `git add .`添加全部文件
+  - `git add [文件架]/`
+
+- 然后`git commit -m ""`提交到仓库
+  - ""中一般是说明内容：“commit xxx file” "第一次提交"
+
+- 同步到远程仓库：`git push origin master`
 
 ### 第二种提交方式(本地有仓库)：
 
