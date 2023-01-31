@@ -5,6 +5,8 @@
 
 ## git使用
 
+常见命令：https://www.runoob.com/git/git-basic-operations.html
+
 ### 第一种提交方式(本地无仓库)
 
 - 获取github仓库保存到本地：
